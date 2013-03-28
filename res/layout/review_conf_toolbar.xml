@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:id="@id/titlebar" android:background="#ff1d0f00" android:layout_width="fill_parent" android:layout_height="@dimen/titlebar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff181919" android:layout_gravity="left|center" android:id="@id/btn_add" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@string/add_another" android:layout_weight="0.0" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/success" android:layout_weight="2.0" android:id="@+id/label_success"/>
+    <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff181919" android:layout_gravity="right|center" android:id="@id/btn_cancel" android:layout_width="100.0dip" android:layout_height="40.0dip" android:text="@string/done" android:layout_weight="0.0" />
+</LinearLayout>

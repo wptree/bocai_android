@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="evenRowBackgroundColor">#30808080</color>
+    <color name="oddRowBackgroundColor">#30ffffff</color>
+    <color name="disabledColor">#ffc0c0c0</color>
+    <color name="active">#ffffff</color>
+    <color name="darkorange">#FF4400</color>
+    <color name="orange">#FFA500</color>
+    <color name="black">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="full_alpha">#00FFFFFF</color>
+    <color name="shape_background">#FF6600</color>
+    <color name="main_in_tabbackcolor1">#fff3e1</color>
+    <color name="main_in_tabbackcolor2">#f0f0f0</color>
+    <color name="main_in_tabbackcolor3">#fff3e1</color>
+    <color name="main_in_tabbackcolor4">#f0f0f0</color>
+    <color name="red">#f91308</color>
+
+</resources>

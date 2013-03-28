@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#80ffff00" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/img_photo" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="5.0dip" android:scaleType="fitCenter" android:layout_alignParentTop="true" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff181919" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Seth Andrzejewski" android:layout_toRightOf="@id/img_photo" android:layout_alignTop="@id/img_photo" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Spotted this 3 days ago" android:layout_toRightOf="@id/img_photo" android:layout_below="@id/title" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff6D8F29" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/comment_hint" android:layout_toRightOf="@id/img_photo" android:layout_below="@id/subtitle" />
+    <ImageView android:id="@id/chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/chevron_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    
+</RelativeLayout>

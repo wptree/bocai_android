@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/button_map" android:layout_marginTop="5dip" android:layout_marginRight="2dip" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_map" />
+    <ImageButton android:id="@id/button_search" android:layout_marginTop="5dip" android:layout_marginRight="2dip" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_search" />
+    <ImageButton android:id="@id/button_shot" android:layout_marginTop="5dip" android:layout_marginRight="2dip" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_spot" />
+    <ImageButton android:id="@id/button_manual_refresh" android:layout_marginTop="5dip" android:layout_marginRight="2dip" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/titlebar_manual_refresh" />
+</LinearLayout>

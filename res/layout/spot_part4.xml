@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <View android:id="@id/shadow" android:background="@drawable/nav_bar_shadow_1x10" android:layout_width="fill_parent" android:layout_height="10.0px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="Item @ Place" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ribbon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:text="@string/love_nom" android:drawableTop="@drawable/ribbon_button_large" android:layout_below="@id/title" android:layout_alignParentRight="true" />
+            <EditText android:textSize="14.0sp" android:gravity="top" android:id="@id/edit_comments" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:hint="@string/think_hint" android:lines="4" android:capitalize="sentences" android:layout_toLeftOf="@id/ribbon" android:layout_below="@id/title" />
+            <EditText android:textSize="14.0sp" android:gravity="top" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="@string/dish_price" android:lines="1" android:capitalize="sentences" android:layout_below="@id/edit_comments" android:id="@+id/edit_price" android:numeric="integer|decimal" android:layout_width="wrap_content" android:layout_alignLeft="@id/edit_comments" android:layout_alignRight="@id/edit_comments"/>
+        </RelativeLayout>
+        <TableLayout android:id="@id/social_table" android:background="@drawable/grouped_table_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:stretchColumns="1" android:layout_below="@id/edit_comments">
+            <TableRow android:background="@drawable/share_header" android:paddingLeft="10.0dip" android:paddingRight="10.0dip">
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_on" />
+            </TableRow>
+            <TableRow android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="2.0dip">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sina_weibo" android:id="@+id/label_sinaweibo"/>
+                <CheckBox android:layout_gravity="right|center" android:paddingRight="18.0dip" android:layout_width="wrap_content" android:layout_height="35.0dip" android:drawablePadding="0.0dip" android:id="@+id/check_sinaweibo"/>
+            </TableRow>
+            
+            <TableRow android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="2.0dip">
+            <View android:background="#ffb4aa9f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_centerHorizontal="true" />
+            <View android:background="#ffb4aa9f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_centerHorizontal="true" />
+            <View android:background="#ffb4aa9f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_centerHorizontal="true" />
+        	</TableRow>
+        </TableLayout>
+        <View android:id="@id/spacer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff181919"  android:id="@id/btn_add" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:text="@string/upload" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="14.71" android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>

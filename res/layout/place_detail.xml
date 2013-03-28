@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll" android:background="@drawable/bg_wood" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_wood" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/label_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:hint="About Place" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:padding="0.0dip" android:clipChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        
+        <com.google.android.maps.MapView android:layout_gravity="center" android:id="@id/mapview" android:clickable="true" android:layout_width="300.0dip" android:layout_height="220.0dip" android:apiKey="@string/google_maps_key" />
+        <ImageView android:layout_gravity="center" android:layout_width="300.0dip" android:layout_height="wrap_content" android:src="@drawable/place_detail_map_frame" />
+    </FrameLayout>
+     
+    <com.bocai.widget.GroupedTableView android:id="@id/metadata_table" 
+                                       android:padding="2.0dip" 
+                                       android:layout_width="fill_parent" 
+                                       android:layout_height="wrap_content" 
+                                       android:layout_marginTop="10.0dip" 
+                                       android:drawSelectorOnTop="false" 
+                                       android:divider="@android:drawable/divider_horizontal_bright" 
+                                       android:minHeight="24.0dip" 
+                                       style="@style/GroupedTableView"
+      xmlns:app="http://schemas.android.com/apk/res/com.bocai" />
+   
+	<TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/label_more_sightings" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/more_sightings_at" />
+ 
+	<com.bocai.widget.GroupedTableView android:id="@id/more_sightings_table" 
+	                                   android:paddingTop="2.0dip" 
+	                                   android:paddingBottom="2.0dip" 
+	                                   android:visibility="gone" 
+	                                   android:layout_width="fill_parent" 
+	                                   android:layout_height="wrap_content" 
+	                              
+	                                   android:layout_marginTop="6.0dip" 
+	                     
+	                                   android:drawSelectorOnTop="false" 
+	                                   android:divider="@android:drawable/divider_horizontal_bright" 
+	                                   style="@style/GroupedTableView"
+      xmlns:app="http://schemas.android.com/apk/res/com.bocai" />
+    
+</LinearLayout>
+
+</ScrollView>

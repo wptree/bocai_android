@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="-4.0dip" android:src="@drawable/spot" android:layout_alignParentRight="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffff" android:gravity="top|left|center" android:id="@id/label1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/join_info" android:layout_toLeftOf="@id/img1" android:layout_alignTop="@id/img1" />
+        
+	<EditText android:id="@id/edit_email" android:nextFocusRight="@id/edit_password" android:nextFocusDown="@id/edit_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:hint="@string/email_addr" android:singleLine="true"  
+	android:layout_below="@id/img1" android:inputType="textEmailAddress" />
+    
+	
+	<LinearLayout android:id="@id/grp_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/edit_email">
+        <EditText android:id="@id/edit_password" android:nextFocusRight="@id/edit_confirm" android:nextFocusDown="@id/edit_confirm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/password" android:password="true" android:singleLine="true" android:layout_weight="1.0" />
+        <EditText android:id="@id/edit_confirm" android:nextFocusRight="@id/btn_submit_join" android:nextFocusDown="@id/btn_submit_join" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/confirm" android:password="true" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@id/btn_submit_join"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grp_password"
+        android:layout_marginTop="8.0dip"
+        android:text="@string/submit_join_button"
+	    style="@style/BocaiButton"/>
+
+</RelativeLayout>

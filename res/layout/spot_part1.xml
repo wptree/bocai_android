@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+
+            <FrameLayout
+                android:id="@id/center_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="10.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/spot_empty_frame" />
+
+                <ImageView
+                    android:id="@id/img_photo"
+                    android:layout_width="280.0dip"
+                    android:layout_height="280.0dip"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:maxHeight="280.0dip"
+                    android:maxWidth="280.0dip"
+                    android:scaleType="centerCrop" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" >
+
+                    <Button
+                        android:id="@id/btn_take_photo"
+                        android:layout_width="200.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/take_photo"
+                        android:textColor="#ff181919"
+                        android:textSize="14.0sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@id/btn_pick_photo"
+                        android:layout_width="200.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/btn_take_photo"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/pick_photo"
+                        android:textColor="#ff181919"
+                        android:textSize="14.0sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+        </LinearLayout>
+        <Button
+            android:id="@id/btn_next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginRight="6.0dip"
+            android:text="@string/next"
+            android:textSize="18.0sp"
+            android:textColor="#ff181919"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@id/shadow"
+            android:layout_width="fill_parent"
+            android:layout_height="10.0px"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-6.0dip"
+            android:background="@drawable/nav_bar_shadow_1x10" />
+    </FrameLayout>
+
+</ScrollView>

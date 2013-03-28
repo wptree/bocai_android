@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titlebar_height">44.0dip</dimen>
+    <dimen name="filterbar_height">46.0dip</dimen>
+    <dimen name="sighting_view_height">212.0dip</dimen>
+</resources>

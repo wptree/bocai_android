@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bocai</string>
+    <string name="version_string">v1.0</string>
+    <string name="menu_login">Join/Log In</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="menu_clear_cache">Clear Cache</string>
+    <string name="clear_cache_msg">"Cached images total %1$s.
+Clear cached data now?"</string>
+    <string name="menu_send_log">Report Error</string>
+    <string name="menu_feedback">Exit</string>
+    <string name="Nearest">Nearby</string>
+    <string name="Latest">Latest</string>
+    <string name="Best">Best</string>
+    <string name="browse_loading">Scanning for foods&#8230;</string>
+    <string name="browse_locating">Finding location&#8230;</string>
+    <string name="browse_no_results">No food found.</string>
+    <string name="open_in_maps">Open in Maps App</string>
+    <string name="browse_search_hint">Search for Food or a Place</string>
+    <string name="title_choose_img">Share something you recommend!</string>
+    <string name="title_choose_place">Where did you find it?</string>
+    <string name="title_choose_item">What is it?</string>
+    <string name="title_choose_other">What did you think?</string>
+    <string name="edit_place_hint">Search for a Place</string>
+    <string name="edit_item_hint">Search for Food</string>
+    <string name="starting_camera">Starting camera&#8230;</string>
+    <string name="loading_photos">Loading photos&#8230;</string>
+    <string name="searching">Searching&#8230;</string>
+    <string name="uploading">Uploading photo&#8230;</string>
+    <string name="new_sighting_added">New sighting added</string>
+    <string name="processing_image">Processing image&#8230;</string>
+    <string name="review_conf_loading_msg">loading&#8230;</string>
+    <string name="more_sightings">More Sightings</string>
+    <string name="review_search_food">Find more of this food!</string>
+    <string name="join_button">Join Bocai</string>
+    <string name="login_button">Log In</string>
+    <string name="join_info"><big><b>Bocai</b></big>"
+is a visual guide to good food and where to find it. Instead of reviewing restaurants, you can find and share your favorite dishes."</string>
+    <string name="submit_join_button">Join Bocai</string>
+    <string name="submit_login_button">Log Into Bocai</string>
+    <string name="submit_sina_login_button">Log Into Bocai</string>
+    <string name="login_progress">Logging In&#8230;</string>
+    <string name="join_progress">Creating new account&#8230;</string>
+    <string name="web_view_loading_msg">loading&#8230;</string>
+    <string name="google_maps_key">0nrRjJEKRviFy6d2g0xsxCj71zMMvg3g1prcprg</string>
+    <string name="network_error">Network Error</string>
+    <string name="fs_offline">Bocai is offline.</string>
+    <string name="try_again">Try again</string>
+    <string name="whoops">Whoops! We ran into some problems</string>
+    <string name="photo_fail_title">Image Error</string>
+    <string name="photo_fail">Error loading photo</string>
+    <string name="location_settings_btn">Settings</string>
+    <string name="location_disabled">Your location settings are disabled. Bocai would like to use your current location to show you great things around you. Go to Settings to turn on location.</string>
+    <string name="flurry_search_empty">SEARCH_EMPTY</string>
+    <string name="flurry_locate_me">LOCATE_ME</string>
+    <string name="flurry_wanted_empty">WANTED_EMPTY</string>
+    <string name="flurry_stream_pages">STREAM_PAGES</string>
+    <string name="flurry_spot_new_food">SPOT_NEW_FOOD</string>
+    <string name="flurry_spot_uploaded">SPOT_UPLOADED</string>
+    <string name="ga_web_property_id">UA&#8211;25707955&#8211;1</string>
+    <string name="what_good_around">What is good around here?</string>
+    <string name="see_what_new">See what is new</string>
+    <string name="see_what_good">See what is good</string>
+    <string name="scan_hint">Scan for foods in map area</string>
+    <string name="find_and_share">Find and share the foods you love</string>
+    <string name="nearby">Near: You</string>
+    <string name="enter_place_hint">Enter place address (overrides map below)&#8230;</string>
+    <string name="place_name">Place name</string>
+    <string name="street_addr">Street Address</string>
+    <string name="drag_pin_hint">Or drag pin to specify location&#8230;</string>
+    <string name="skip">Skip</string>
+    <string name="email_addr">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="load_next_page">Loading\nNext Page</string>
+    <string name="title">Title</string>
+    <string name="sub_title">Subtitle</string>
+    <string name="comment_hint">This is my favorite pizza in the whole wide world. Yes, the crust is salty, but that is why it is so delicious!</string>
+    <string name="add_another">Add Another</string>
+    <string name="success">Success!</string>
+    <string name="done">Done</string>
+    <string name="want_it">Want it!</string>
+    <string name="nom_it">Nom it!</string>
+    <string name="detail">Detail</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="pick_photo">Pick from Library</string>
+    <string name="next">Next</string>
+    <string name="love_nom">Loved it?\nNom it!</string>
+    <string name="think_hint">What did you think?</string>
+    <string name="dish_price">Dish price</string>
+    <string name="share_on">Share on&#8230;</string>
+    <string name="sina_weibo">Sina Weibo</string>
+    <string name="upload">Done</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="add_new_place">Add a New Place:</string>
+    <string name="add_new_food">Add a New Food:</string>
+    <string name="btn_add_place_text">Add New Place</string>
+    <string name="your_name">Your Name</string>
+    <string name="month">month</string>
+    <string name="day">day</string>
+    <string name="hour">hour</string>
+    <string name="minute">minute</string>
+    <string name="second">second</string>
+    <string name="from_now">from now</string>
+    <string name="from_now_s">s from now</string>
+    <string name="ago"> ago</string>
+    <string name="ago_s">s ago</string>
+    <string name="km">kilo meter</string>
+    <string name="m">meter</string>
+    <string name="noms">noms</string>
+    <string name="nom">nom</string>
+    <string name="exit_msg">Quit bocai</string>
+    <string name="exit_confirm">Are you sure to quit?</string>
+    <string name="exit_btn">Exit</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="spotted_this">Spotted this</string>
+    <string name="place_secondName">Branch name</string>
+    <string name="network_na_prompt">Network is not available,please check your setting</string>
+	<string name="unknown_address">Unknown Address</string>
+    <string name="invalid_email">email is not a valid email address!</string>
+	<string name="pass_length">password should contain at least 3 characters!</string>
+	<string name="pass_ne">password confirm does not equal password!</string>
+	
+	<string name="search_dish">Search "&lt;font color="red"&gt;%s&lt;/font&gt;"related dishes</string>
+	<string name="search_place">Search dishes from "&lt;font color="red"&gt;%s&lt;/font&gt;" related places</string>
+	
+	<string name="more_sightings_at">More sighing at this place</string>
+	<string name="nom_and_want" formatted="false">"%d noms,%d wants"</string>
+	
+	<!--  for app update tips -->
+	<string name="update">check for update</string>
+	<string name="help">Help?</string>
+	<string name="help_content">I am helper,muhaha~~~</string>
+	<string name="found_newversion">Found a new version</string>
+	<string name="need_update">need update?</string>
+	<string name="alertdialog_title">Software Update</string>
+	<string name="alertdialog_update_button">Update</string>
+	<string name="alertdialog_cancel_button">Not now</string>
+	<string name="progressdialog_title">Downloading update</string>
+	<string name="progressdialog_message">Please wait a moment</string>
+	<string name="open_gps_confirm">Do you want to open GPS provider</string>
+	<string name="locate_me_fail">Failed to find your location</string>
+	
+</resources>

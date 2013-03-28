@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <splashscreen delay="2000" />
+    <services host="wineratings.localhost" />
+    <rss feedUrl="http://twitter.com/statuses/user_timeline/67665851.rss" />
+</configuration>

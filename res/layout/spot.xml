@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/flipper" android:background="@drawable/bg_wood" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/part1" layout="@layout/spot_part1" />
+    <include android:id="@id/part2" layout="@layout/spot_part2" />
+    <include android:id="@id/part3" layout="@layout/spot_part3" />
+    <include android:id="@id/part4" layout="@layout/spot_part4" />
+</ViewFlipper>

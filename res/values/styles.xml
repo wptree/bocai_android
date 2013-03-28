@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <style name="BocaiButton" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/filter_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="FilterButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/filter_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/filter_button_3options</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">106.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ScoreboardButtonGroup">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">-6.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="EmptyListView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:shadowColor">#48000000</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">0.5</item>
+    </style>
+    <style name="MapCalloutText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff3a3a3a</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+    <style name="GroupedTableRow" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff181919</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_marginBottom">4.0dip</item>
+    </style>
+    <style name="GroupedTableView" parent="@android:style/Widget.ListView">
+        <item name="android:background">@drawable/grouped_table_bg</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_bright</item>
+        <item name="listSelector">@android:drawable/list_selector_background</item>
+    </style>
+    <style name="Theme.Bocai" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/bg_wood</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+           <style name="dialog_title">
+                <item name="android:textSize">23.0sp</item>
+                <item name="android:textColor">#ffff6600</item>
+                <item name="android:gravity">center_horizontal</item>
+        </style>
+        <style name="dialog_name">
+                <item name="android:textSize">20.0sp</item>
+                <item name="android:textColor">#ff000000</item>
+        </style>
+</resources>

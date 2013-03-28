@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_wood" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/nav_bar_shadow_1x10" android:layout_width="fill_parent" android:layout_height="10.0px" android:layout_marginTop="-7.0dip" android:layout_below="@id/grp_login_join" android:layout_centerHorizontal="true" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/grp_login_join" android:layout_width="fill_parent" android:layout_height="@dimen/filterbar_height" android:checkedButton="@id/btn_login" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <RadioButton android:id="@id/btn_login" android:background="@drawable/filter_button_2options" android:text="@string/login_button" style="@style/FilterButton" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_divider_1x40" />
+        <RadioButton android:id="@id/btn_join" android:background="@drawable/filter_button_2options" android:text="@string/join_button" style="@style/FilterButton" />
+    </RadioGroup>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/grp_login_join">
+        <ViewFlipper android:layout_gravity="top|center" android:id="@id/flipper" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content">
+            <include layout="@layout/auth_login" />
+            <include layout="@layout/auth_join" />
+        </ViewFlipper>
+    </ScrollView>
+</RelativeLayout>

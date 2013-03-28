@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll" android:background="@drawable/bg_wood" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:baselineAligned="false" android:orientation="horizontal" android:id="@id/scoreboard" android:background="@drawable/nav_bar_tile_1x46" android:layout_width="fill_parent" android:layout_height="46.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/sb_want" android:layout_weight="1.0" style="@style/ScoreboardButtonGroup">
+                <CheckedTextView android:textSize="17.0sp" android:textColor="#ff181919" android:layout_gravity="center" android:id="@id/label_sb_want_qty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:drawableLeft="@drawable/check_want" android:drawablePadding="3.0dip" />
+                <TextView android:textSize="10.0sp" android:textColor="#ff181919" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:text="@string/want_it" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sb_nom" android:layout_weight="1.0" style="@style/ScoreboardButtonGroup">
+                <CheckedTextView android:textSize="17.0sp" android:textColor="#ff181919" android:layout_gravity="center" android:id="@id/label_sb_nom_qty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:drawableLeft="@drawable/check_nom" android:drawablePadding="3.0dip" />
+                <TextView android:textSize="10.0sp" android:textColor="#ff181919" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:text="@string/nom_it" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@drawable/nav_bar_shadow_1x10" android:layout_width="fill_parent" android:layout_height="10.0px" android:layout_marginTop="-6.0dip" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/img_photo" android:background="@drawable/stamp_large" android:padding="10.0dip" android:layout_width="300.0dip" android:layout_height="300.0dip" android:scaleType="fitCenter" android:maxWidth="280.0dip" android:maxHeight="280.0dip" />
+            <ImageView android:id="@id/ribbon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="17.0dip" android:src="@drawable/ribbon_large" android:scaleType="fitCenter" android:layout_alignTop="@id/img_photo" android:layout_alignRight="@id/img_photo" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleSmall" />
+        </RelativeLayout>
+          
+        <com.bocai.widget.GroupedTableView android:id="@id/metadata_table" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:drawSelectorOnTop="false" android:divider="@android:drawable/divider_horizontal_bright" android:minHeight="24.0dip" style="@style/GroupedTableView"
+          xmlns:app="http://schemas.android.com/apk/res/com.bocai" />
+        
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/label_more_reviews" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/more_sightings" />
+          
+        <com.bocai.widget.GroupedTableView android:id="@id/more_reviews_table" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:drawSelectorOnTop="false" android:divider="@android:drawable/divider_horizontal_bright" style="@style/GroupedTableView"
+          xmlns:app="http://schemas.android.com/apk/res/com.bocai" />
+         
+    </LinearLayout>
+</ScrollView>

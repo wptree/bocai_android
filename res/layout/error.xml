@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/dialog_bg"
+>
+        <!-- 错误 
+        <TextView android:id="@+id/error_top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="提示信息"
+        style="@style/dialog_title"
+        /> -->
+        <LinearLayout android:id="@+id/widget67"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:gravity="center" 
+        android:padding="5dip"
+        android:orientation="vertical"
+        >
+                <TextView android:id="@+id/error_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/dialog_name"
+            android:gravity="center_horizontal"
+            android:maxWidth="285dip"
+            />
+                <!--  
+                <Button android:id="@+id/sure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确定"
+                android:textSize="16dip"
+                android:textColor="@drawable/textcolor_button"
+                android:background="@drawable/background_button2"
+                android:layout_marginTop="15dip"
+                />-->
+        </LinearLayout>
+</LinearLayout>
